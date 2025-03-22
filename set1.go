@@ -8,14 +8,13 @@ import (
 
 func main() {
 	fmt.Println("Savings:")
-	first := savings(1000, 0.12, 80)
-	fmt.Println(first)
+	fmt.Println(savings(1000, 0.12, 80))
+
 	fmt.Println("Material Waste:")
-	second := materialWaste(460, "kg", 8, 24)
-	fmt.Println(second)
+	fmt.Println(materialWaste(460, "kg", 8, 24))
+
 	fmt.Println("Interest:")
-	third := interest(12000, 0.03, 8)
-	fmt.Println(third)
+	fmt.Println(interest(12000, 0.03, 8))
 }
 
 func savings(grossPay int, taxRate float64, expenses int) int {
